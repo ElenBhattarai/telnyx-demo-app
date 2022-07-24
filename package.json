@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build:pwa": "NODE_ENV=production next build",
     "build": "next build",
     "lint": "next lint --max-warnings=0",
